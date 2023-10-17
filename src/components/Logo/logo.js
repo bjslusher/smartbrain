@@ -4,9 +4,11 @@ import { Tilt } from 'react-tilt'
 
 const Logo = () => {
     return (
-        <Tilt style={{borderRadius: "5rem" ,background: "linear-gradient(89deg, red, white, blue)", padding: "10px"}}>
+        <div style={{padding: 10}}>
+        <Tilt className="pa5 shadow-5 br44" style={{borderRadius: "5rem" ,background: "linear-gradient(89deg, blue, white, red)", padding: 3}}>
             <img style={{padding: "20px"}} src={brain} alt="brain img"/>
         </Tilt>
+        </div>
     );
 }
 
